@@ -1,0 +1,25 @@
+{
+  "name": "promptu",
+  "version": "1.1.0",
+  "description": "An ultra-lightweight, zero-dependency local prompt vault, template engine, and multi-project manager for AI workflows.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "ai",
+    "prompts",
+    "prompt-engineering",
+    "llm",
+    "chatgpt",
+    "claude",
+    "gemini",
+    "vault",
+    "local-first",
+    "zero-dependency",
+    "templates"
+  ],
+  "author": "Rahul Mali",
+  "license": "MIT"
+}

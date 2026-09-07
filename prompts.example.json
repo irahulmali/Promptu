@@ -1,0 +1,721 @@
+[
+  {
+    "id": "p-1788767551646",
+    "title": "Figma Design System Tokens",
+    "project": "Design Systems",
+    "category": "Design",
+    "tags": [
+      "design-system",
+      "tokens",
+      "ui-ux"
+    ],
+    "pinned": false,
+    "useCount": 1,
+    "description": "Generate standard design tokens including color palettes, typography scale, spacing, and elevations for a multi-platform design system.",
+    "prompt": "Please generate a complete set of design tokens for the design system named \"{{theme_name}}\" targeting {{platform}}.\n\nInclude:\n1. Color scales (Primary, Neutral, Semantic, Glassmorphic background)\n2. Typography scale (Font sizes, line-heights, weights)\n3. Spacing and layout grid increments (4px / 8px system)\n4. Border radii and elevation/shadow tokens\n\nFormat the output as clean, structured {{format_style}} tokens.",
+    "createdAt": 1788767551646,
+    "updatedAt": 1788767551646
+  },
+  {
+    "id": "test-prompt-1",
+    "title": "Generate a React Component for task 1",
+    "category": "Backend",
+    "tags": [
+      "react",
+      "testing"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a React Component quickly.",
+    "prompt": "Please write a React Component that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-2",
+    "title": "Generate a Node.js API for task 2",
+    "category": "DevOps",
+    "tags": [
+      "node",
+      "api"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a Node.js API quickly.",
+    "prompt": "Please write a Node.js API that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-3",
+    "title": "Generate a Python Script for task 3",
+    "category": "Frontend",
+    "tags": [
+      "python",
+      "architecture"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a Python Script quickly.",
+    "prompt": "Please write a Python Script that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-4",
+    "title": "Generate a SQL Query for task 4",
+    "category": "System",
+    "tags": [
+      "sql",
+      "database"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a SQL Query quickly.",
+    "prompt": "Please write a SQL Query that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-5",
+    "title": "Generate a Docker Config for task 5",
+    "category": "Coding",
+    "tags": [
+      "docker",
+      "devops"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a Docker Config quickly.",
+    "prompt": "Please write a Docker Config that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-6",
+    "title": "Generate a CSS Styling for task 6",
+    "category": "Backend",
+    "tags": [
+      "css",
+      "design"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a CSS Styling quickly.",
+    "prompt": "Please write a CSS Styling that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-7",
+    "title": "Generate an Algorithm for task 7",
+    "category": "DevOps",
+    "tags": [
+      "algorithm",
+      "performance"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate an Algorithm quickly.",
+    "prompt": "Please write an Algorithm that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-8",
+    "title": "Generate a Unit Test for task 8",
+    "category": "Frontend",
+    "tags": [
+      "testing",
+      "refactoring"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a Unit Test quickly.",
+    "prompt": "Please write a Unit Test that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000,
+    "useCount": 1
+  },
+  {
+    "id": "test-prompt-9",
+    "title": "Generate a Git Workflow for task 9 <img src=x onerror=alert(1)>",
+    "category": "System",
+    "tags": [
+      "git",
+      "devops"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a Git Workflow quickly.A useful prompt to generate a Git Workflow quickly.A useful prompt to generate a Git Workflow quickly.A useful prompt to generate a Git Workflow quickly.A useful prompt to generate a Git Workflow quickly.",
+    "prompt": "Please write a Git Workflow that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.Please write a Git Workflow that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.Please write a Git Workflow that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.Please write a Git Workflow that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.Please write a Git Workflow that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.Please write a Git Workflow that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.Please write a Git Workflow that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.Please write a Git Workflow that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1788752588301,
+    "useCount": 1
+  },
+  {
+    "id": "test-prompt-10",
+    "title": "Generate a Database Schema for task 10",
+    "category": "Coding",
+    "tags": [
+      "database",
+      "sql"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a Database Schema quickly.",
+    "prompt": "Please write a Database Schema that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-11",
+    "title": "Generate a React Component for task 11",
+    "category": "Backend",
+    "tags": [
+      "react",
+      "frontend"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a React Component quickly.",
+    "prompt": "Please write a React Component that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-12",
+    "title": "Generate a Node.js API for task 12",
+    "category": "DevOps",
+    "tags": [
+      "node",
+      "backend"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a Node.js API quickly.",
+    "prompt": "Please write a Node.js API that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-13",
+    "title": "Generate a Python Script for task 13",
+    "category": "Frontend",
+    "tags": [
+      "python",
+      "data"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a Python Script quickly.",
+    "prompt": "Please write a Python Script that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-14",
+    "title": "Generate a SQL Query for task 14",
+    "category": "System",
+    "tags": [
+      "sql",
+      "data"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a SQL Query quickly.",
+    "prompt": "Please write a SQL Query that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-15",
+    "title": "Generate a Docker Config for task 15",
+    "category": "Coding",
+    "tags": [
+      "docker",
+      "container"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a Docker Config quickly.",
+    "prompt": "Please write a Docker Config that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-16",
+    "title": "Generate a CSS Styling for task 16",
+    "category": "Backend",
+    "tags": [
+      "css",
+      "frontend"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a CSS Styling quickly.",
+    "prompt": "Please write a CSS Styling that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-17",
+    "title": "Generate an Algorithm for task 17",
+    "category": "DevOps",
+    "tags": [
+      "algorithm",
+      "logic"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate an Algorithm quickly.",
+    "prompt": "Please write an Algorithm that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-18",
+    "title": "Generate a Unit Test for task 18",
+    "category": "Frontend",
+    "tags": [
+      "testing",
+      "quality"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a Unit Test quickly.",
+    "prompt": "Please write a Unit Test that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-19",
+    "title": "Generate a Git Workflow for task 19",
+    "category": "System",
+    "tags": [
+      "git",
+      "version-control"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a Git Workflow quickly.",
+    "prompt": "Please write a Git Workflow that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-20",
+    "title": "Generate a Database Schema for task 20",
+    "category": "Coding",
+    "tags": [
+      "database",
+      "design"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a Database Schema quickly.",
+    "prompt": "Please write a Database Schema that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-21",
+    "title": "Generate a React Component for task 21",
+    "category": "Backend",
+    "tags": [
+      "react",
+      "ui"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a React Component quickly.",
+    "prompt": "Please write a React Component that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-22",
+    "title": "Generate a Node.js API for task 22",
+    "category": "DevOps",
+    "tags": [
+      "node",
+      "express"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a Node.js API quickly.",
+    "prompt": "Please write a Node.js API that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-23",
+    "title": "Generate a Python Script for task 23",
+    "category": "Frontend",
+    "tags": [
+      "python",
+      "automation"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a Python Script quickly.",
+    "prompt": "Please write a Python Script that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-24",
+    "title": "Generate a SQL Query for task 24",
+    "category": "System",
+    "tags": [
+      "sql",
+      "performance"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a SQL Query quickly.",
+    "prompt": "Please write a SQL Query that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-25",
+    "title": "Generate a Docker Config for task 25",
+    "category": "Coding",
+    "tags": [
+      "docker",
+      "compose"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a Docker Config quickly.",
+    "prompt": "Please write a Docker Config that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-26",
+    "title": "Generate a CSS Styling for task 26",
+    "category": "Backend",
+    "tags": [
+      "css",
+      "animation"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a CSS Styling quickly.",
+    "prompt": "Please write a CSS Styling that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-27",
+    "title": "Generate an Algorithm for task 27",
+    "category": "DevOps",
+    "tags": [
+      "algorithm",
+      "math"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate an Algorithm quickly.",
+    "prompt": "Please write an Algorithm that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-28",
+    "title": "Generate a Unit Test for task 28",
+    "category": "Frontend",
+    "tags": [
+      "testing",
+      "jest"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a Unit Test quickly.",
+    "prompt": "Please write a Unit Test that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-29",
+    "title": "Generate a Git Workflow for task 29",
+    "category": "System",
+    "tags": [
+      "git",
+      "ci-cd"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a Git Workflow quickly.",
+    "prompt": "Please write a Git Workflow that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-30",
+    "title": "Generate a Database Schema for task 30",
+    "category": "Coding",
+    "tags": [
+      "database",
+      "nosql"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a Database Schema quickly.",
+    "prompt": "Please write a Database Schema that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-31",
+    "title": "Generate a React Component for task 31",
+    "category": "Backend",
+    "tags": [
+      "react",
+      "hooks"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a React Component quickly.",
+    "prompt": "Please write a React Component that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-32",
+    "title": "Generate a Node.js API for task 32",
+    "category": "DevOps",
+    "tags": [
+      "node",
+      "auth"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a Node.js API quickly.",
+    "prompt": "Please write a Node.js API that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-33",
+    "title": "Generate a Python Script for task 33",
+    "category": "Frontend",
+    "tags": [
+      "python",
+      "ml"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a Python Script quickly.",
+    "prompt": "Please write a Python Script that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-34",
+    "title": "Generate a SQL Query for task 34",
+    "category": "System",
+    "tags": [
+      "sql",
+      "join"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a SQL Query quickly.",
+    "prompt": "Please write a SQL Query that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-35",
+    "title": "Generate a Docker Config for task 35",
+    "category": "Coding",
+    "tags": [
+      "docker",
+      "k8s"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a Docker Config quickly.",
+    "prompt": "Please write a Docker Config that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-36",
+    "title": "Generate a CSS Styling for task 36",
+    "category": "Backend",
+    "tags": [
+      "css",
+      "flexbox"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a CSS Styling quickly.",
+    "prompt": "Please write a CSS Styling that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-37",
+    "title": "Generate an Algorithm for task 37",
+    "category": "DevOps",
+    "tags": [
+      "algorithm",
+      "graph"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate an Algorithm quickly.",
+    "prompt": "Please write an Algorithm that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-38",
+    "title": "Generate a Unit Test for task 38",
+    "category": "Frontend",
+    "tags": [
+      "testing",
+      "e2e"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a Unit Test quickly.",
+    "prompt": "Please write a Unit Test that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-39",
+    "title": "Generate a Git Workflow for task 39",
+    "category": "System",
+    "tags": [
+      "git",
+      "github"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a Git Workflow quickly.",
+    "prompt": "Please write a Git Workflow that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-40",
+    "title": "Generate a Database Schema for task 40",
+    "category": "Coding",
+    "tags": [
+      "database",
+      "postgres"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a Database Schema quickly.",
+    "prompt": "Please write a Database Schema that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-41",
+    "title": "Generate a React Component for task 41",
+    "category": "Backend",
+    "tags": [
+      "react",
+      "nextjs"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a React Component quickly.",
+    "prompt": "Please write a React Component that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-42",
+    "title": "Generate a Node.js API for task 42",
+    "category": "DevOps",
+    "tags": [
+      "node",
+      "graphql"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a Node.js API quickly.",
+    "prompt": "Please write a Node.js API that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-43",
+    "title": "Generate a Python Script for task 43",
+    "category": "Frontend",
+    "tags": [
+      "python",
+      "fastapi"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a Python Script quickly.",
+    "prompt": "Please write a Python Script that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-44",
+    "title": "Generate a SQL Query for task 44",
+    "category": "System",
+    "tags": [
+      "sql",
+      "mysql"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a SQL Query quickly.",
+    "prompt": "Please write a SQL Query that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-45",
+    "title": "Generate a Docker Config for task 45",
+    "category": "Coding",
+    "tags": [
+      "docker",
+      "alpine"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a Docker Config quickly.",
+    "prompt": "Please write a Docker Config that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-46",
+    "title": "Generate a CSS Styling for task 46",
+    "category": "Backend",
+    "tags": [
+      "css",
+      "grid"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a CSS Styling quickly.",
+    "prompt": "Please write a CSS Styling that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-47",
+    "title": "Generate an Algorithm for task 47",
+    "category": "DevOps",
+    "tags": [
+      "algorithm",
+      "sort"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate an Algorithm quickly.",
+    "prompt": "Please write an Algorithm that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-48",
+    "title": "Generate a Unit Test for task 48",
+    "category": "Frontend",
+    "tags": [
+      "testing",
+      "cypress"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a Unit Test quickly.",
+    "prompt": "Please write a Unit Test that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-49",
+    "title": "Generate a Git Workflow for task 49",
+    "category": "System",
+    "tags": [
+      "git",
+      "merge"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a Git Workflow quickly.",
+    "prompt": "Please write a Git Workflow that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  },
+  {
+    "id": "test-prompt-50",
+    "title": "Generate a Database Schema for task 50",
+    "category": "Coding",
+    "tags": [
+      "database",
+      "redis"
+    ],
+    "pinned": false,
+    "description": "A useful prompt to generate a Database Schema quickly.",
+    "prompt": "Please write a Database Schema that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.",
+    "createdAt": 1700000000000,
+    "updatedAt": 1700000000000
+  }
+]
