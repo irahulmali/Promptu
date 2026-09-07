@@ -131,18 +131,20 @@
   },
   {
     "id": "test-prompt-9",
-    "title": "Generate a Git Workflow for task 9 <img src=x onerror=alert(1)>",
-    "category": "System",
+    "title": "Generate a CI/CD Git Workflow",
+    "project": "DevOps Hub",
+    "category": "DevOps",
     "tags": [
       "git",
+      "ci-cd",
       "devops"
     ],
     "pinned": false,
-    "description": "A useful prompt to generate a Git Workflow quickly.A useful prompt to generate a Git Workflow quickly.A useful prompt to generate a Git Workflow quickly.A useful prompt to generate a Git Workflow quickly.A useful prompt to generate a Git Workflow quickly.",
-    "prompt": "Please write a Git Workflow that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.Please write a Git Workflow that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.Please write a Git Workflow that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.Please write a Git Workflow that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.Please write a Git Workflow that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.Please write a Git Workflow that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.Please write a Git Workflow that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.Please write a Git Workflow that accomplishes the following task:\n\n1. It should take {{input_data}} as input.\n2. It must process it efficiently.\n3. Return the result in {{output_format}} format.\n3. Return the result in {{output_format}} format.",
+    "description": "Generate a streamlined GitHub Actions or GitLab CI pipeline for automated testing and deployment.",
+    "prompt": "Please write a CI/CD pipeline workflow for a {{stack_type}} project that accomplishes the following:\n\n1. Triggers on pull requests and pushes to {{main_branch}}.\n2. Runs linting, type-checking, and test suites across {{node_versions}}.\n3. Builds the production artifacts and verifies build integrity.\n4. Deploys to {{deployment_target}} upon successful validation.",
     "createdAt": 1700000000000,
-    "updatedAt": 1788752588301,
-    "useCount": 1
+    "updatedAt": 1700000000000,
+    "useCount": 2
   },
   {
     "id": "test-prompt-10",
