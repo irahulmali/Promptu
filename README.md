@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Promptu Screenshot](./assets/screenshot.jpg?raw=true&v=2)
+![Promptu Screenshot](./assets/screenshot.jpg?raw=true&v=3)
 
 **An ultra-lightweight, zero-dependency local prompt vault, template engine, and multi-project manager for AI workflows.**
 
