@@ -1,11 +1,18 @@
+#!/usr/bin/env node
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
+const os = require('os');
 const { exec } = require('child_process');
 
 const PORT = process.env.PORT || 3333;
 const ROOT_DIR = __dirname;
-const PRIMARY_FILE = path.join(ROOT_DIR, 'prompts.json');
+
+const PROMPTU_DATA_DIR = path.join(os.homedir(), '.promptu');
+const PRIMARY_FILE = path.join(PROMPTU_DATA_DIR, 'prompts.json');
+
+// Legacy paths for migration
+const LEGACY_FILE = path.join(ROOT_DIR, 'prompts.json');
 const MIRROR_FILE = path.join(ROOT_DIR, 'prompts', 'prompts.json');
 const EXAMPLE_FILE = path.join(ROOT_DIR, 'prompts.example.json');
 
@@ -22,6 +29,11 @@ const MIME_TYPES = {
 };
 
 function readPromptsFile() {
+  if (!fs.existsSync(PROMPTU_DATA_DIR)) {
+    fs.mkdirSync(PROMPTU_DATA_DIR, { recursive: true });
+  }
+
+  // 1. If global file exists, use it
   if (fs.existsSync(PRIMARY_FILE)) {
     try {
       const raw = fs.readFileSync(PRIMARY_FILE, 'utf-8');
@@ -31,22 +43,39 @@ function readPromptsFile() {
     }
   }
 
+  // 2. MIGRATION: If global doesn't exist but local repo file exists, migrate it
+  if (fs.existsSync(LEGACY_FILE)) {
+    try {
+      const raw = fs.readFileSync(LEGACY_FILE, 'utf-8');
+      const seedData = JSON.parse(raw);
+      writePromptsFile(seedData);
+      console.log(`[Promptu] Migrated local prompt database to global location: ${PRIMARY_FILE}`);
+      return seedData;
+    } catch (e) {
+      console.error('[Promptu] Error migrating legacy prompts.json:', e.message);
+    }
+  }
+
+  // 3. MIGRATION fallback: Mirror file
   if (fs.existsSync(MIRROR_FILE)) {
     try {
       const raw = fs.readFileSync(MIRROR_FILE, 'utf-8');
-      return JSON.parse(raw);
+      const seedData = JSON.parse(raw);
+      writePromptsFile(seedData);
+      console.log(`[Promptu] Migrated mirror database to global location: ${PRIMARY_FILE}`);
+      return seedData;
     } catch (e) {
       console.error('[Promptu] Error reading mirror prompts.json:', e.message);
     }
   }
 
-  // If no database file exists yet, initialize from prompts.example.json if present
+  // 4. Initial seed
   if (fs.existsSync(EXAMPLE_FILE)) {
     try {
       const raw = fs.readFileSync(EXAMPLE_FILE, 'utf-8');
       const seedData = JSON.parse(raw);
       writePromptsFile(seedData);
-      console.log('[Promptu] Initialized local prompt database from prompts.example.json');
+      console.log(`[Promptu] Initialized global prompt database from prompts.example.json at ${PRIMARY_FILE}`);
       return seedData;
     } catch (e) {
       console.error('[Promptu] Error initializing from prompts.example.json:', e.message);
@@ -57,6 +86,10 @@ function readPromptsFile() {
 }
 
 function writePromptsFile(data) {
+  if (!fs.existsSync(PROMPTU_DATA_DIR)) {
+    fs.mkdirSync(PROMPTU_DATA_DIR, { recursive: true });
+  }
+
   const jsonString = JSON.stringify(data, null, 2);
 
   // Write primary root file
