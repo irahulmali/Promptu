@@ -37,6 +37,7 @@ Unlike cloud-dependent prompt managers, **Promptu stores 100% of your data local
 - **🏷️ Interactive Tags & Scoped Category Chips**: Click any tag to filter the entire library instantly. Category counts dynamically update based on the active project.
 - **💾 Import & Export**: One-click JSON backup and restore with duplicate detection and conflict handling.
 - **⭐ Pinning & Usage Tracking**: Pin your go-to prompts to the top and track usage frequency automatically.
+- **🌓 Theme Support**: Easily toggle between beautiful, high-contrast dark and light modes with built-in system preference detection.
 - **🔄 Auto-Shutdown**: Automatically shuts down the local server when you close the browser tab to keep your system resources clean.
 - **🖥️ Silent Background Launchers**: Includes dedicated single-click background launchers for Windows (`.vbs`), macOS (`.command`), and Linux (`.sh`).
 
